@@ -1,0 +1,24 @@
+# README
+
+- This project contains four source files: 
+    - main.cpp
+    - test.cpp
+    - toy_robot.cpp 
+    - toy_robot.h
+- Two executables are produced from these files: 
+    - main.out 
+    - test.out
+- Before running the executables, user must type "make all" command to build the project
+
+## Running the executables
+
+- To run the `main.out` executable:
+    - Make sure there is an input.txt file in the same directory
+    - The main.out program will read the input from the input.txt file
+    - To add your own test cases, you can add them to the input.txt file
+    - Navigate to the directory where it is located and type "./main.out" on the command line
+
+- To run the `test.out` executable:
+    - Make sure the google test framework is installed
+    - test.out performs unit tests based on the google test framework
+    - Navigate to the directory where it is located and type "./test.out" on the command line
