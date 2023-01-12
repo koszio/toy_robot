@@ -8,7 +8,7 @@
 - Two executables are produced from these files: 
     - main.out 
     - test.out
-- Before running the executables, user must type "make all" command to build the project
+- Before running the executables, user must type "make all" command to build the project. Use make clean to delete all output files.
 
 ## Running the executables
 
